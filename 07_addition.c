@@ -10,6 +10,5 @@ void main()
  printf("value of a = %d\n",a);
  printf("value of b = %d\n",b);
  c=a+b;
- printf("sum = %d\n",c);
  printf("sum of %d and %d = %d\n",a,b,c);
 }
