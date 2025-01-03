@@ -2,9 +2,9 @@
 #include<stdio.h>
 void main()
 {
-  int num,square;
+  int n,s;
   printf("enter a num : ");
-  scanf("%d",&num);	//5
-  square=num*num;
-  printf("square of %d = %d\n",num,square);
+  scanf("%d",&n);	//5
+  s=n*n;
+  printf("square of %d = %d\n",n,s);
 }
