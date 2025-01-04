@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main()
 {
+	int hi;
 	int _5hi_12;
 	int While;
 	int WHILE;
