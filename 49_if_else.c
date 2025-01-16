@@ -1,4 +1,4 @@
-// wap to find greatest number btween two number.
+// wap to find greatest number between two number.
 #include <stdio.h>
 void main()
 {
