@@ -4,9 +4,9 @@ void main()
 {
     int num1, num2;
     printf("enter frist value : ");
-    scanf("%d", &num1);
+    scanf("%d", &num1);//12
     printf("enter second value : ");
-    scanf("%d", &num2);
+    scanf("%d", &num2);//12
 
     num1 == num2 ? printf("nums are same") : printf("nums are different");
 }

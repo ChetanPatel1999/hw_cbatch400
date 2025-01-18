@@ -4,7 +4,7 @@ void main()
 {
  char alpha;
  printf("enter a alphabet : ");
- scanf("%c",&alpha);//p
+ scanf("%c",&alpha);//k
  alpha=='a' || alpha=='e' || alpha=='i' || alpha=='o'|| alpha=='u'
  ?printf("%c is vovel",alpha)
  :printf("%c is consonent",alpha);

@@ -5,7 +5,7 @@ void main()
     int count = 0;
     printf("a= %d\n", a);//12
     printf("count= %d\n", count);//0
-    a++; // a+=5; //a=a+5
+    a++; //a=a+1
     printf("a= %d\n", a);//13
     ++a;
     count++;

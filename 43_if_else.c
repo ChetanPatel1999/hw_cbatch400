@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main()
 {
-    if (12<9)
+    if (12 < 9)
     {
         printf("inside if");
     }

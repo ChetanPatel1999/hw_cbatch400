@@ -3,7 +3,7 @@ void main()
 {
     int num;
     printf("enter a number : ");
-    scanf("%d", &num);//6
+    scanf("%d", &num); // 6
     if (num == 1)
     {
         printf("good morning");
@@ -20,7 +20,7 @@ void main()
     {
         printf("good night");
     }
-    if(num>4)
+    if (num > 4)
     {
         printf("please enter number less than 5");
     }
