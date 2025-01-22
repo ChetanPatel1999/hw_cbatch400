@@ -4,7 +4,7 @@
 void main()
 {
     int i;
-    for (i=1;i<=5;i++)
+    for (i=1;i<=5;i++)// 4
     {
         printf("hello world institute\n");
     }
