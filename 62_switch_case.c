@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main()
 {
-    printf("wlecome to my calculater :\n");
+    printf("welcome to my calculater :\n");
     printf("press 1 for add :\n");
     printf("press 2 for sub :\n");
     printf("press 3 for mul :\n");

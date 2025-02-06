@@ -4,7 +4,7 @@ void main()
 {
     int num;
     printf("enter a num : ");
-    scanf("%d", &num); //-78
+    scanf("%d", &num); // 8
     if (num == 0)
     {
         printf("number is zero");

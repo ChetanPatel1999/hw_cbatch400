@@ -7,9 +7,9 @@ void main()
     scanf("%d", &num);//125
     while (num)
     {
-        rem = num % 10;
-        sum = sum + rem;
-        num = num / 10;
+        rem = num % 10;//1
+        sum = sum + rem;//8
+        num = num / 10;//0
     }
     printf("sum of individual digit : %d", sum);
 }

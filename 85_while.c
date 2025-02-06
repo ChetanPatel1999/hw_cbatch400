@@ -5,11 +5,11 @@ void main()
     int i = 1, n;
     printf("enter a num : ");
     scanf("%d", &n); // 12
-    while (i <= n)
+    while (i <= n)   // 4 <=12
     {
         if (i % 2 == 0)
         {
-            printf("%d ", i);//2 4 6
+            printf("%d ", i); // 2 4 6                     // 4
         }
         i++;
     }

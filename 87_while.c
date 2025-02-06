@@ -4,10 +4,10 @@ void main()
 {
     int num, c = 0;
     printf("enter a num : ");
-    scanf("%d", &num); // 6
+    scanf("%d", &num); // 634
     while (num)
     {
-        num = num / 10;
+        num = num / 10;//0
         c++;
     }
     printf("digit count : %d", c);
