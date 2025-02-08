@@ -4,12 +4,16 @@ void main()
 {
     int num, i, c = 0;
     printf("enter a num : ");
-    scanf("%d", &num);         // 17
-    for (i = 1; i <= num; i++) // 2
+    scanf("%d", &num);         // 12345678
+    for (i = 1; i <= num; i++) //4
     {
         if (num % i == 0)
         {
-            c++; // 2
+            c++; //3
+            if(c>2)
+            {
+                break;
+            }
         }
     }
     if (c == 2)
