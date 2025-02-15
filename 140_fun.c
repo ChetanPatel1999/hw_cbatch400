@@ -3,7 +3,7 @@ void add();
 void main()
 {
     int i;
-    for (i = 1; i <= 5; i++)
+    for (i = 1; i <= 5; i++) // 3
     {
         add();
     }
