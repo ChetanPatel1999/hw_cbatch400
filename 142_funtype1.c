@@ -44,8 +44,6 @@ void gretest_num()
 }
 void main()
 {
-    // add();
-    // cube();
-    // factorial();
-    gretest_num();
+    printf("hi i am main function\n");
+    cube();
 }
