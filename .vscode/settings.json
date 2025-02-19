@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "99_BREAK.C": "cpp"
+        "99_BREAK.C": "cpp",
+        "155_ARRAY.C": "cpp"
     }
 }
