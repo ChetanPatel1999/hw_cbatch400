@@ -4,7 +4,7 @@ void main()
 {
     int n;
     printf("enter array size  :");
-    scanf("%d",&n);
+    scanf("%d",&n);//5
     int a[n];
     int i;
     // code for take array value by user at programm run time
