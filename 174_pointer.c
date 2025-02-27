@@ -1,4 +1,4 @@
-// pointer to array
+//pointer to array
 #include <stdio.h>
 void main()
 {
@@ -8,14 +8,14 @@ void main()
     printf("enter array element : ");
     for (i = 0; i < 5; i++)
     {
-        scanf("%d", ptr); // 416
-        ptr++;            // 420
+        scanf("%d", ptr); // 404
+        ptr++;            // 404
     }
     ptr = &arr[0];
     printf("array element are :");
     for (i = 0; i < 5; i++)
     {
         printf("%d ", *ptr);
-        ptr++;
+        ptr++;//404
     }
 }
