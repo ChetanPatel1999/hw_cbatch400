@@ -4,39 +4,39 @@
 void main()
 {
     int i, *ptr, *temp;
-    ptr = malloc(20); // 400
-    temp = ptr;       // 400
-    *ptr = 12;
-    ptr++; // 404
-    *ptr = 34;
-    ptr++; // 408
-    *ptr = 5;
-    ptr++; // 412
-    *ptr = 77;
-    ptr++; // 416
-    *ptr = 99;
+    int n;
+    printf("enter dynamic array size :");
+    scanf("%d", &n);                      // 7
+    ptr = (int *)malloc(n * sizeof(int)); // 400
+    temp = ptr;                           // 400
+    printf("enter array element :");
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", ptr);
+        ptr++;
+    }
     ptr = temp;
     printf("array element are :");
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < n; i++)
     {
         printf("%d ", *ptr);
         ptr++; // 420
     }
     int sum = 0;
     ptr = temp;
-    for (i = 0; i < 5; i++)
+    for (i = 0; i < n; i++)
     {
         sum = sum + *ptr; // 12
         ptr++;
     }
     printf("\nsum =%d\n", sum);
     printf("only even element of array : ");
-    ptr=temp;
-    for (i = 0; i < 5; i++)
+    ptr = temp;
+    for (i = 0; i < n; i++)
     {
         if (*ptr % 2 == 0)
         {
-            printf("%d ",*ptr);
+            printf("%d ", *ptr);
         }
         ptr++;
     }
