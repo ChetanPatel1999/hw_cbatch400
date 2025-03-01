@@ -2,6 +2,7 @@
     "files.associations": {
         "stdio.h": "c",
         "99_BREAK.C": "cpp",
-        "155_ARRAY.C": "cpp"
+        "155_ARRAY.C": "cpp",
+        "stdlib.h": "c"
     }
 }
