@@ -1,4 +1,4 @@
-// wap to print even numbers 1 to given rangeusing recursion.
+// wap to print even numbers 1 to given range using recursion.
 #include <stdio.h>
 void even(int e)
 {

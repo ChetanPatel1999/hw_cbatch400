@@ -1,12 +1,11 @@
 // for loop example
-//wap to print a msg five times.
+// wap to print a msg five times.
 #include <stdio.h>
 void main()
 {
     int i;
-    for (i=1;i<=5;i++)// 4
-    {
-        printf("hello world institute\n");
-    }
-    
+    for (i = 1; i <= 5; i++) // 4
+    printf("hello world institute\n");
+    printf("locate tower square\n");
+    printf("in indore\n");
 }
