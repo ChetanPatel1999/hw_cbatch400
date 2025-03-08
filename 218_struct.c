@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+struct pen
+{
+    char c_name[20];
+    int price;
+    float rating;
+};
+void main()
+{
+    struct pen p1 = {"cello", 5, 4.5}, p2 = {.price = 10, .c_name = "pentonic", .rating = 5.8}, p3;
+    printf("pen1 info: \n");
+    printf("pen name : %s\n", p1.c_name);
+    printf("pen price : %d\n", p1.price);
+    printf("pen rating : %.1f\n", p1.rating);
+
+    printf("pen2 info: \n");
+    printf("pen name : %s\n", p2.c_name);
+    printf("pen price : %d\n", p2.price);
+    printf("pen rating : %.1f\n", p2.rating);
+}
